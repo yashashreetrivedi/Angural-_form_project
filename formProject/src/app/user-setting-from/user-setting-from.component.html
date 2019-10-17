@@ -1,0 +1,54 @@
+<div>
+  <h2>User setting</h2>
+  <form>
+    <div class= "from-group">
+    <label for="name">Name</label>
+    <input id="name" name="name" class="form-control" placeholder="Name" />
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="emailOffers" name="emailOffers">
+      <label class="form-check-label" for="emailOffers">
+      Email Special Offers
+      </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="interfaceStyle" id="darkInterface" value="dark" >
+        <label class="form-check-label" for="darkInterface">
+        Dark
+        </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="radio" name="interfaceStyle" id="mediamInterface" value="dark" >
+          <label class="form-check-label" for="mediamInterface">
+          Mediam
+          </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="interfaceStyle" id="lightInterface" value="dark" >
+            <label class="form-check-label" for="lightInterface">
+            Light
+            </label>
+          </div>
+          <div class="form-group">
+              <label for="exampleFormControlSelect1">Subscription Type</label>
+              <select class="form-control" id="SubscriptionType">
+                <option>Monthly</option>
+                <option>Annual</option>
+                <option>Lifetime</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="notes">Notes</label>
+                <textarea class="form-control" id="notes" rows="3"></textarea>
+              </div>
+              <div class= "from-group">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" name="password" class="form-control" placeholder="Password" />
+                </div>
+                <div class= "from-group">
+                    <label for="testing">Testing</label>
+                    <input type="date" id="testing" name="testing" class="form-control"/>
+                  </div>
+    <button class="btn btn-primary">Send</button>
+  </form>
+</div>
